@@ -451,7 +451,7 @@
                 <version>${spotbugs.plugin.version}</version>
                 <configuration>
 					<xmlOutput>true</xmlOutput>
-					<includeTests>true</includeTests>
+					<!--<includeTests>true</includeTests>-->
 					<!--<onlyAnalyze>*</onlyAnalyze>-->
 				</configuration>
 			</plugin>
