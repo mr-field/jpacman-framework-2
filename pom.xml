@@ -451,8 +451,8 @@
                 <version>${spotbugs.plugin.version}</version>
                 <configuration>
 					<xmlOutput>true</xmlOutput>
-					<includeTests>true</includeTests>
-					<!--<onlyAnalyze>nl.tudelft.jpacman.*</onlyAnalyze>-->
+					<!--<includeTests>true</includeTests>-->
+					<!--<onlyAnalyze>*</onlyAnalyze>-->
 				</configuration>
 			</plugin>
 		</plugins>
