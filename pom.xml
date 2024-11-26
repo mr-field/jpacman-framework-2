@@ -452,6 +452,7 @@
                 <configuration>
 					<xmlOutput>true</xmlOutput>
 					<includeTests>true</includeTests>
+					<!--<onlyAnalyze>*</onlyAnalyze>-->
 				</configuration>
 			</plugin>
 		</plugins>
