@@ -59,7 +59,8 @@ public class Launcher {
      *            Map to be used.
      * @return Level corresponding to the given map.
      */
-    public Launcher withMapFile(String file_Name) {
+    public Launcher withMapFile(String file_Name)
+    {
         levelMap = file_Name;
         return this;
     }
